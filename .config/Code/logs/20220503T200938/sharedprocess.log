@@ -1,0 +1,32 @@
+[2022-05-03 20:10:00.171] [sharedprocess] [info] Starting worker process with pid 3883555 (type: fileWatcher, window: 1).
+[2022-05-03 20:10:02.863] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-03 20:10:07.767] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-03 20:10:07.771] [sharedprocess] [info] Getting Manifest... github.copilot
+[2022-05-03 20:10:07.773] [sharedprocess] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-05-03 20:10:07.778] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-05-03 20:10:07.779] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-05-03 20:10:07.781] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-05-03 20:10:07.784] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-containers
+[2022-05-03 20:10:07.786] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-ssh
+[2022-05-03 20:10:07.789] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-wsl
+[2022-05-03 20:10:07.792] [sharedprocess] [info] Getting Manifest... ms-vscode.cpptools
+[2022-05-03 20:10:07.792] [sharedprocess] [info] Getting Manifest... pkief.material-icon-theme
+[2022-05-03 20:10:07.794] [sharedprocess] [info] Getting Manifest... tal7aouy.theme
+[2022-05-03 20:10:08.643] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-05-03 20:10:08.669] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-05-03 20:10:08.675] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2022-05-03 20:10:08.678] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-wsl
+[2022-05-03 20:10:08.683] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2022-05-03 20:10:08.694] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-05-03 20:10:09.214] [sharedprocess] [info] Installing extension: tal7aouy.theme
+[2022-05-03 20:10:09.302] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2022-05-03 20:10:09.308] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2022-05-03 20:10:09.313] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-05-03 20:10:09.319] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2022-05-03 20:10:09.321] [sharedprocess] [info] Installing extension: github.copilot
+[2022-05-03 20:10:25.482] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/okabe/.config/Code/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-05-03 20:10:25.609] [sharedprocess] [info] Extracted extension to /home/okabe/.vscode/extensions/.0e9a2a3e-0041-4e1d-bbe6-093968e886da: ms-vscode.js-debug-companion
+[2022-05-03 20:10:25.704] [sharedprocess] [info] Renamed to /home/okabe/.vscode/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-05-03 20:10:25.712] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-05-03 20:10:25.805] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-05-03 20:10:26.124] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/okabe/.config/Code/CachedExtensionVSIXs/pkief.material-icon-theme-4.16.0

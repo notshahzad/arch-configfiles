@@ -1,0 +1,11 @@
+[2022-04-07 00:11:43.561] [sharedprocess] [info] Starting worker process with pid 640664 (type: fileWatcher, window: 1).
+[2022-04-07 00:11:43.901] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-ssh-edit /home/okabe/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.78.0
+[2022-04-07 00:11:44.086] [sharedprocess] [info] Deleted from disk github.copilot /home/okabe/.vscode/extensions/github.copilot-1.11.5453
+[2022-04-07 00:11:47.997] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-containers /home/okabe/.vscode/extensions/ms-vscode-remote.remote-containers-0.231.2
+[2022-04-07 00:11:53.488] [sharedprocess] [info] Getting Manifest... ms-vscode-remote.remote-containers
+[2022-04-07 00:11:54.518] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2022-04-07 00:11:59.179] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers /home/okabe/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-containers-0.231.4
+[2022-04-07 00:12:01.624] [sharedprocess] [info] Extracted extension to /home/okabe/.vscode/extensions/.76aa3948-f55a-4ad8-9786-eeceae83d303: ms-vscode-remote.remote-containers
+[2022-04-07 00:12:01.770] [sharedprocess] [info] Renamed to /home/okabe/.vscode/extensions/ms-vscode-remote.remote-containers-0.231.4
+[2022-04-07 00:12:01.777] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-containers
+[2022-04-07 00:12:01.940] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-containers

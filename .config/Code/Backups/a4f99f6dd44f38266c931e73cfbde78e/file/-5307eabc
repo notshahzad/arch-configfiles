@@ -1,0 +1,130 @@
+file:///home/okabe/programs/js/node/videostreaming-webapp-from-wallmart/gst-c/mp4convert.c {"mtime":1647779413419,"ctime":1647682937141,"size":5042,"etag":"38f5msia257k","orphaned":false,"typeId":""}
+#include <gst/gst.h>
+typedef struct GstData
+{
+    GstElement *pipeline, *source, *sink, *videoconvert, *mp4mux, *x264enc, *queue, *decodebin;
+} GstData;
+void pad_added_handler(GstElement *src, GstPad *pad, GstData *data);
+int main(int argc, char *argv[])
+{
+    GstData Gstdata;
+    GstBus *Bus;
+    GstMessage *msg;
+    GstStateChange ret;
+    gboolean terminate = FALSE;
+    gst_init(&argc, &argv);
+    Gstdata.source = gst_element_factory_make("filesrc", "source");
+    Gstdata.decodebin = gst_element_factory_make("decodebin", "decodebin");
+    Gstdata.queue = gst_element_factory_make("queue", "queue");
+    Gstdata.videoconvert = gst_element_factory_make("videoconvert", "videoconvert");
+    Gstdata.x264enc = gst_element_factory_make("x264enc", "x264enc");
+    Gstdata.mp4mux = gst_element_factory_make("mp4mux", "mp4mux");
+    Gstdata.sink = gst_element_factory_make("filesink", "filesink");
+    Gstdata.pipeline = gst_pipeline_new("pipeline");
+    if (!Gstdata.source || !Gstdata.decodebin || !Gstdata.queue || !Gstdata.videoconvert || !Gstdata.x264enc || !Gstdata.mp4mux || !Gstdata.sink)
+    {
+        g_printerr("Elements could not be created .\n");
+        gst_object_unref(Gstdata.pipeline);
+        return -1;
+    }
+    gst_bin_add_many(GST_BIN(Gstdata.pipeline), Gstdata.source, Gstdata.decodebin, Gstdata.queue, Gstdata.videoconvert, Gstdata.x264enc, Gstdata.mp4mux, Gstdata.sink, NULL);
+    if (!gst_element_link(Gstdata.source, Gstdata.decodebin))
+    {
+        g_printerr("el couldn't be linked1\n");
+        gst_object_unref(Gstdata.pipeline);
+        return -1;
+    }
+
+    if (!gst_element_link_many(Gstdata.queue, Gstdata.videoconvert, Gstdata.x264enc, Gstdata.mp4mux, Gstdata.sink, NULL))
+    {
+        g_printerr("Elements could not be linked2.\n");
+        gst_object_unref(Gstdata.pipeline);
+        return -1;
+    }
+    g_object_set(Gstdata.source, "location", "test.mp4", NULL);
+    g_object_set(Gstdata.sink, "location", "test2.mp4", NULL);
+    g_signal_connect(Gstdata.decodebin, "pad-added", G_CALLBACK(pad_added_handler), &Gstdata);
+    ret = gst_element_set_state(Gstdata.pipeline, GST_STATE_PLAYING);
+    if (ret == GST_STATE_CHANGE_FAILURE)
+    {
+        g_printerr("can't change the state to playing\n");
+        g_object_unref(Gstdata.pipeline);
+        return -1;
+    }
+    Bus = gst_element_get_bus(Gstdata.pipeline);
+    do
+    {
+        msg = gst_bus_timed_pop_filtered(Bus, GST_CLOCK_TIME_NONE, GST_MESSAGE_STATE_CHANGED | GST_MESSAGE_ERROR | GST_MESSAGE_EOS);
+        if (msg != NULL)
+        {
+            GError *err;
+            gchar *debug_info;
+            switch (GST_MESSAGE_TYPE(msg))
+            {
+            case GST_MESSAGE_ERROR:
+                gst_message_parse_error(msg, &err, &debug_info);
+                g_printerr("error recieved from element %s : %s\n", GST_OBJECT_NAME(msg->src), err->message);
+                g_printerr("Debugging information: %s\n", debug_info ? debug_info : "none");
+                g_clear_error(&err);
+                g_free(debug_info);
+                terminate = TRUE;
+                break;
+            case GST_MESSAGE_EOS:
+                g_printerr("end of stream reached");
+                terminate = TRUE;
+                break;
+            case GST_MESSAGE_STATE_CHANGED:
+                if (GST_MESSAGE_SRC(msg) == GST_OBJECT(Gstdata.pipeline))
+                {
+                    GstState old_state, new_state, pending_state;
+                    gst_message_parse_state_changed(msg, &old_state, &new_state, &pending_state);
+                    g_print("pipeline state changed from %s to %s:\n", gst_element_state_get_name(old_state), gst_element_state_get_name(new_state));
+                }
+                break;
+            default:
+                g_printerr("unexpected message recieved");
+                break;
+            }
+            gst_message_unref(msg);
+        }
+    } while (!terminate);
+    gst_object_unref(Bus);
+    gst_element_set_state(Gstdata.pipeline, GST_STATE_NULL);
+    gst_object_unref(Gstdata.pipeline);
+    return 0;
+}
+void pad_added_handler(GstElement *src, GstPad *new_pad, GstData *data)
+{
+    GstPad *sinkpad = gst_element_get_static_pad(data->queue, "sink");
+    GstPadLinkReturn ret;
+    GstCaps *new_pad_caps;
+    GstStructure *new_pad_struct;
+    const gchar *new_pad_type = NULL;
+    g_print("recieved new pad %s from %s:\n", GST_PAD_NAME(new_pad), GST_ELEMENT_NAME(src));
+    if (gst_pad_is_linked(sinkpad))
+    {
+        g_print("already linked.\n");
+        goto exit;
+    }
+    new_pad_caps = gst_pad_get_current_caps(new_pad);
+    new_pad_struct = gst_caps_get_structure(new_pad_caps, 0);
+    new_pad_type = gst_structure_get_name(new_pad_struct);
+    // if (!g_str_has_prefix(new_pad_type, "video/raw")){
+
+    // }
+
+    ret = gst_pad_link(new_pad, sinkpad);
+    if (GST_PAD_LINK_FAILED(ret))
+    {
+        g_printerr("pad link failed");
+        
+    }
+    else
+    {
+        g_print("sucess");
+    }
+exit:
+    if (new_pad_caps != NULL)
+        gst_caps_unref(new_pad_caps);
+    g_object_unref(sinkpad);
+}

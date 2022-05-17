@@ -1,0 +1,8 @@
+[2022-05-03 20:09:58.205] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-03 20:09:58.318] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-05-03 20:09:58.584] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-05-03 20:09:59.087] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-03 20:10:00.617] [renderer1] [error] ["Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-05-03 20:10:00.619] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-05-03 20:10:08.490] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-05-03 20:10:14.547] [renderer1] [warning] UNRESPONSIVE extension host: 'KnisterPeter.vscode-github' took 84% of 5483.695ms, saved PROFILE here: 'file:///tmp/exthost-6e9e3a.cpuprofile' [{"id":"esbenp.prettier-vscode","total":410906,"percentage":7},{"id":"gc","total":13623,"percentage":0},{"id":"GitHub.vscode-pull-request-github","total":171,"percentage":0},{"id":"KnisterPeter.vscode-github","total":4587690,"percentage":84},{"id":"program","total":405,"percentage":0},{"id":"self","total":432368,"percentage":8},{"id":"vscode.emmet","total":28702,"percentage":1},{"id":"vscode.merge-conflict","total":8255,"percentage":0}]

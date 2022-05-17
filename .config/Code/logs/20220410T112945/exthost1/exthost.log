@@ -1,0 +1,26 @@
+[2022-04-10 11:29:54.701] [exthost] [info] Extension host with pid 239909 started
+[2022-04-10 11:29:54.702] [exthost] [info] Skipping acquiring lock for /home/okabe/.config/Code/User/workspaceStorage/483bb959ae50eb7816ba6312a91b3731.
+[2022-04-10 11:29:55.969] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-10 11:29:56.006] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-10 11:29:56.050] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-10 11:29:56.139] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-04-10 11:29:56.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-10 11:29:56.226] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-04-10 11:29:56.247] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-10 11:29:56.266] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-04-10 11:29:59.307] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-04-10 11:30:02.290] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-10 11:30:02.367] [exthost] [info] Eager extensions activated
+[2022-04-10 11:30:02.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:02.472] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:02.483] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:02.646] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:03.199] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:03.234] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:08.129] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github
+[2022-04-10 11:30:08.502] [exthost] [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:09.089] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: false, activationEvent: '*'
+[2022-04-10 11:30:11.304] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:16.418] [exthost] [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-10 11:30:16.571] [exthost] [info] extension host terminating: parent process 239186 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+[2022-04-10 11:30:16.592] [exthost] [info] Extension host with pid 239909 exiting with code 0

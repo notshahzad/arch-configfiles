@@ -1,0 +1,15 @@
+{
+  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font'",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": -1,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+}

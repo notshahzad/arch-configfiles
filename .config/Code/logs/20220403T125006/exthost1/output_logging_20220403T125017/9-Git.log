@@ -1,0 +1,13 @@
+[2022-04-03T07:20:43.295Z] Validating found git in: git
+[2022-04-03T07:20:43.517Z] Using git 2.35.1 from git
+[2022-04-03T07:20:43.660Z] > git rev-parse --git-dir [30ms]
+[2022-04-03T07:20:43.676Z] Open repository: /home/okabe/programs/js/node/videostreaming-webapp-from-wallmart
+[2022-04-03T07:20:43.821Z] > git symbolic-ref --short HEAD [20ms]
+[2022-04-03T07:20:43.856Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [8ms]
+[2022-04-03T07:20:43.914Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+[2022-04-03T07:20:43.939Z] > git remote --verbose [40ms]
+[2022-04-03T07:20:44.100Z] > git config --get commit.template [90ms]
+[2022-04-03T07:20:44.370Z] > git config --local branch.master.github-pr-owner-number [10ms]
+[2022-04-03T07:20:44.598Z] > git ls-files --stage -- /home/okabe/programs/js/node/videostreaming-webapp-from-wallmart/views/js/watch.js [107ms]
+[2022-04-03T07:20:44.710Z] > git config --local branch.master.github-pr-owner-number [52ms]
+[2022-04-03T07:20:44.984Z] > git cat-file -s b8d6c14787771be29fc3a0f78ef48b3630afc2f7 [364ms]

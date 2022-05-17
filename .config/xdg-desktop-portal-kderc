@@ -1,0 +1,12 @@
+[FileDialogSize]
+VGA-1 eDP-1 Height 1366x768=480
+VGA-1 eDP-1 Width 1366x768=652
+eDP-1 Height 1366x768=480
+eDP-1 VGA-1 Height 1366x768=512
+eDP-1 VGA-1 Width 1366x768=884
+eDP-1 Width 1366x768=652
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Wallpapers/kimi_no_nawa.jpg,file:$HOME/Videos/Big_Buck_Bunny_720_10s_10MB.mp4,file:$HOME/Pictures/Screenshot_20220228_201450.png,file:$HOME/Pictures/Screenshot_20220228_201259.png,file:$HOME/Pictures/Wallpapers/raidenShogun.jpg
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Pictures/Wallpapers/,file:$HOME/,file:$HOME/Pictures/,file:$HOME/Documents/,file:$HOME/Videos/
+detailViewIconSize=16

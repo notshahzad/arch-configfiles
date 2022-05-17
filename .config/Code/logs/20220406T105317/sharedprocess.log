@@ -1,0 +1,6 @@
+[2022-04-06 10:53:40.754] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-04-06 10:53:47.837] [sharedprocess] [error] No ptyHost heartbeat after 12 seconds
+[2022-04-06 10:54:16.493] [sharedprocess] [info] Deleted from disk github.copilot /home/okabe/.vscode/extensions/github.copilot-1.10.5413
+[2022-04-06 10:54:49.429] [sharedprocess] [info] Starting worker process with pid 1096041 (type: fileWatcher, window: 1).
+[2022-04-06 10:55:05.207] [sharedprocess] [info] Deleted from disk tal7aouy.theme /home/okabe/.vscode/extensions/tal7aouy.theme-2.1.1
+[2022-04-06 10:55:05.223] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-containers /home/okabe/.vscode/extensions/ms-vscode-remote.remote-containers-0.231.0
