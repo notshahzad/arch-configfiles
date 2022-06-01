@@ -1,9 +1,0 @@
-2022/05/16-19:10:56.892 2e60a Reusing MANIFEST /home/okabe/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/05/16-19:10:56.893 2e60a Recovering log #34
-2022/05/16-19:10:57.073 2e60a Reusing old log /home/okabe/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000034.log 
-2022/05/16-19:11:05.730 31f0b Compacting 1@1 + 1@2 files
-2022/05/16-19:11:05.957 31f0b Generated table #37@1: 448 keys, 39353 bytes
-2022/05/16-19:11:05.957 31f0b Compacted 1@1 + 1@2 files => 39353 bytes
-2022/05/16-19:11:06.098 31f0b compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/05/16-19:11:06.099 31f0b Delete type=2 #35
-2022/05/16-19:11:06.099 31f0b Delete type=2 #32

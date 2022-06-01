@@ -1,4 +1,0 @@
-[2022-04-06 13:14:56.895] [renderer1] [error] ["Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files"]
-[2022-04-06 13:14:56.896] [renderer1] [warning] Settings Sync: Accounts are not initialized
-[2022-04-06 13:15:06.882] [renderer1] [error] [Extension Host] (node:2758119) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)

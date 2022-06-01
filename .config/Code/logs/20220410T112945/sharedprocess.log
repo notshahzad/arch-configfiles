@@ -1,6 +1,0 @@
-[2022-04-10 11:29:56.582] [sharedprocess] [info] Starting worker process with pid 241173 (type: fileWatcher, window: 1).
-[2022-04-10 11:29:57.329] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-containers /home/okabe/.vscode/extensions/ms-vscode-remote.remote-containers-0.231.4
-[2022-04-10 11:30:05.327] [sharedprocess] [info] Getting Manifest... ms-python.python
-[2022-04-10 11:30:05.333] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
-[2022-04-10 11:30:06.093] [sharedprocess] [info] Installing extension: ms-python.python
-[2022-04-10 11:30:06.103] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance

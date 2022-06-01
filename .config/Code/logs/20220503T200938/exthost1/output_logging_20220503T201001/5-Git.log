@@ -1,4 +1,0 @@
-[2022-05-03T14:40:28.961Z] Validating found git in: git
-[2022-05-03T14:40:29.658Z] Using git 2.36.0 from git
-[2022-05-03T14:40:30.184Z] > git rev-parse --git-dir [173ms]
-[2022-05-03T14:40:30.242Z] Open repository: /home/okabe

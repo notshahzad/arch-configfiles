@@ -1,3 +1,0 @@
-[2022-04-10 11:29:53.724] [renderer1] [error] ["Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files"]
-[2022-04-10 11:29:53.726] [renderer1] [warning] Settings Sync: Accounts are not initialized
-[2022-04-10 11:30:13.297] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW

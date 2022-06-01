@@ -1,6 +1,0 @@
-[2022-04-06 10:53:42.942] [renderer1] [error] ["Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files"]
-[2022-04-06 10:53:42.943] [renderer1] [warning] Settings Sync: Accounts are not initialized
-[2022-04-06 10:53:53.563] [renderer1] [info] The pty host became responsive again
-[2022-04-06 10:54:15.363] [renderer1] [info] Setting search error: XHR timeout: 5000ms
-[2022-04-06 10:54:18.099] [renderer1] [info] Setting search error: XHR timeout: 5000ms
-[2022-04-06 10:54:57.312] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

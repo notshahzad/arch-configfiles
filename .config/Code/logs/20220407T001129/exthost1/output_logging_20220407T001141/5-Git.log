@@ -1,5 +1,0 @@
-[2022-04-06T18:42:14.985Z] Validating found git in: git
-[2022-04-06T18:42:15.587Z] Using git 2.35.1 from git
-[2022-04-06T18:42:15.789Z] > git rev-parse --git-dir [139ms]
-[2022-04-06T18:42:15.803Z] Open repository: /home/okabe
-[2022-04-06T18:42:16.910Z] > git ls-files --stage -- /home/okabe/programs/asm/fib.asm [23ms]

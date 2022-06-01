@@ -1,4 +1,0 @@
-2022/05/17-08:12:56.431 3 Reusing MANIFEST /home/okabe/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2022/05/17-08:12:56.614 3 Recovering log #221
-2022/05/17-08:12:56.901 3 (ignoring error) /home/okabe/.config/chromium/Default/Local Storage/leveldb/000221.log: dropping 562 bytes; Corruption: missing start of fragmented record(2)
-2022/05/17-08:12:56.902 3 Reusing old log /home/okabe/.config/chromium/Default/Local Storage/leveldb/000221.log 
