@@ -1,0 +1,40 @@
+sw_volume: 98
+audio_device_state:1:Pulseaudio
+audio_device_state:1:Visualizer
+state: play
+current: 13
+time: 110.432000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 2
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:(C97) WHITE ALBUM2 Original Soundtrack ~encore~/original-Soundtrack-encore/04.WHITE ALBUM.mp3
+1:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/10 closing.mp3
+2:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/07 Answer.mp3
+3:DECO*27/HatsuneMiku/12 乙女解剖 (TeddyLoid Alllies Remix).mp3
+4:ROKUDENASHI/Tada Koe Hitotsu/ただ声一つ-.mp4
+5:SawanoHiroyuki/LilaS/01.LilaS.mp3
+6:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/04 After All～綴る想い～.mp3
+7:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/08 心はいつもあなたのそばに.mp3
+8:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/09 POWDER SNOW.mp3
+9:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/06 幸せな記憶.mp3
+10:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/05 Twinkle Snow.mp3
+11:YOASOBI/Yoasobi - Yoru ni Kakeru/Yoru ni Kakeru.flac
+12:YOASOBI/YOASOBI - あの夢をなぞって/01. あの夢をなぞって (Ballade Ver.).flac
+13:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/01 届かない恋.mp3
+14:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/02 WHITE ALBUM.mp3
+15:WHITE ALBUM2 Original Soundtrack ~kazusa~/original-Soundtrack-Kazusa/03 SOUND OF DESTINY.mp3
+16:DECO*27/HatsuneMiku/07 秘宝.mp3
+17:DECO*27/HatsuneMiku/11 二息歩行 (Reloaded).mp3
+18:DECO*27/HatsuneMiku/02 アンデッドアリス.mp3
+19:DECO*27/HatsuneMiku/06 依存香炉.mp3
+20:DECO*27/HatsuneMiku/09 ネガティブ進化論.mp3
+21:Fantastic Youth/乙女解剖/乙女解剖.mp3
+22:EGOIST/Guilty Crown OP1 Single - My Dearest/01 My Dearest.mp3
+23:EGOIST/Guilty Crown OP1 Single - My Dearest/05 My Dearest -Instrumental-.mp3
+24:EGOIST/Guilty Crown OP1 Single - My Dearest/04 My Dearest (TV Edit).mp3
+playlist_end

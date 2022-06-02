@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+kitty @ send-text \
+  --match title:cover \
+  "clear && kitty +icat /tmp/cover.png\r"

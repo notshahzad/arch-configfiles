@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+music_dir="$HOME/Music"
+temp_song="/tmp/current-song.jpg"
+# having issues escaping spaces in the path
+sudo cp "$music_dir/$(mpc --format %file% current | awk -F'/' '{print $1"/"$2}')/cover.jpg" -r "$temp_song"
+sudo ffmpeg \
+  -hide_banner \
+  -loglevel 0 \
+  -i "$temp_song" \
+  -vf scale=150:-1 || convert "$temp_song" -resize 150x \
+  "/tmp/cover.png" > /dev/null
+
+sudo rm -r "$temp_song" > /dev/null
+kitty +icat --align left --place 20x20@4x1 "/tmp/cover.png"
